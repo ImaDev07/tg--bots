@@ -1,1 +1,1 @@
-TOKEN = '7681999597:AAHJdc7dVfdbaw7LHxkGMzFa8BnRXmMA'
+TOKEN = 'здесь был токен'
