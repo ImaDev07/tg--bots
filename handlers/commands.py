@@ -95,15 +95,3 @@ async def show_bookings(message: Message, state: FSMContext):
         await message.answer('У вас пока нет бронирований')
 
     await state.clear()
-
-    # if bookings:
-    #     response = '\n\n'.join([
-    #         f'Дата: {b[2]}\nВремя: {b[3]}\nЛюдей: {b[4]}\nМесто: {'у окна' if b[5].lower() == 'да' else 'нет'}'
-    #         for b in bookings
-    #     ])
-    #     await message.answer(f'Ваши бронирования:\n\n{response}')
-    # else:
-    #     await message.answer('У вас пока нет бронирований')
-    # await state.clear()
-    #
-
